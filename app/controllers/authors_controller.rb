@@ -38,7 +38,7 @@ class AuthorsController < ApplicationController
   end
   
   def author_find
-    Author.Find(params[:id])
+    Author.find_by(params[:id])
   end
 
   
